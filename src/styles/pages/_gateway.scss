@@ -1,0 +1,40 @@
+.gateway {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  
+  a {
+    font-family: $font-bold;
+    font-size: 2em;
+    text-shadow: $color-pink -1px 1px 1px;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: $color-blue;
+  }
+  a:hover {
+    cursor: pointer;
+    color: $color-pink;
+  }
+}
+.stars {
+    position: fixed;
+    top: -1vh;
+    font-size: 2rem;
+    transform: translateY(0);
+    animation: fall 3s linear forwards;
+  }
+@keyframes fall {
+  to {
+    transform: translateY(105vh);
+  }
+}

@@ -1,0 +1,39 @@
+.all-sign-container {
+  width: 20vw;
+  .all-sign-list {
+    width: 100%;
+    > ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      list-style-type: none;
+      > li {
+        cursor: pointer;
+        color: $color-blue;
+        font-family: $font-bold;
+        font-size: 1em;
+      }
+      > li:hover {
+        text-shadow: $color-pink -1px 1px 1px;
+      }
+      .active-btn {
+        text-decoration: underline 3px;
+      }
+    }
+  }
+  .all-sign-burger {
+    display: none;
+  }
+  .fa-times {
+    position: fixed;
+    top: 120px;
+    right: 20px;
+    color: $color-blue;
+    font-size: 2em;
+    cursor: pointer;
+    z-index: 99;
+  }
+  .fa-times:hover {
+    text-shadow: $color-pink -1px 1px 1px;
+  }
+}

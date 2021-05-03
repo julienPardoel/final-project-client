@@ -1,0 +1,20 @@
+@import './settings';
+@import './vars';
+@import './mediaqueries';
+
+@import './pages/home';
+@import './pages/gateway';
+@import './pages/profil';
+@import './pages/cgu';
+
+@import './components/navbar';
+@import './components/footer';
+@import './components/Log/allsign';
+@import './components/Log/signIn';
+@import './components/Log/signUp';
+@import './components/Log/logout';
+@import './components/Sort/settingNav';
+@import './components/thread';
+@import './components/Card/littleCard';
+@import './components/Card/bigCard';
+@import './components/Card/comments';
