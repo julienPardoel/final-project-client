@@ -25,7 +25,7 @@ const Gateway = () => {
     <div className="gateway">
       {createStars}
       <img src="../img/logo.png" alt="" />
-      <a href="http://localhost:3000/home">Accéder au site</a>
+      <a href="https://playandcom.herokuapp.com/home">Accéder au site</a>
     </div>
   );
 };
